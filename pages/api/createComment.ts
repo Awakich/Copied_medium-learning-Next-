@@ -4,7 +4,7 @@ import sanityClient from '@sanity/client'
 
 
 const config = {
-    projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
+    projectId: 'kme7it8t',
     dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
     token: process.env.SANITY_API_TOKEN,
     useCdn: process.env.NODE_ENV === 'production',
